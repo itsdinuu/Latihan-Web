@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.feedback {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-outline-primary {
+    transition: 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#feedback {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#feedback.green {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+#feedback.red {
+    background-color: #f8d7da;
+    color: #721c24;
+}
